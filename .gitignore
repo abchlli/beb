@@ -1,0 +1,27 @@
+# Modules
+node_modules/
+
+# Builds
+*.db
+*.dll
+*.exe
+*.o
+*.out
+*.so
+*.test
+/build
+/dist
+
+# Logs
+*.log
+
+# Environment
+.env*
+!.env.example
+
+# Tools
+.vscode/
+.idea/
+.DS_Store
+*.swp
+tags*
