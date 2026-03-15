@@ -4,7 +4,7 @@
 Highly abstracted API development template.
 
 ## Features
-* [Bun](https://bun.sh/) for native Typescript support and speed.
+* [Bun](https://bun.sh/) for native TypeScript support and speed.
 * [Elysia](https://elysiajs.com/) is designed for humans and feels mnemonic.
 * [Biome](https://biomejs.dev/) provides both formatting and linting in one unified package.
 
@@ -26,13 +26,13 @@ bun format
 # Lint
 bun lint
 ```
-The format command will format almost everything in the project, but Biome is set to it will ignore
-anything that's in `.gitignore` and any file larger then 2MB which is double the default!
+The format command will format almost everything in the project, but Biome is set so it will ignore
+anything that's in `.gitignore` and any file larger than 2MB which is double the default!
 
 It will also organize your imports, if you don't like this, you can easily change this by modifying
 `biome.json`.
 
-Linting is using the recommended settings, but is strict on unused variables and imports!
+Linting is using the recommended settings but is strict on unused variables and imports!
 
 ## Installation
 Install [Bun](https://bun.sh/) then just:
